@@ -1,0 +1,36 @@
+{
+  "name": "commonsubstrings",
+  "version": "1.0.0",
+  "description": "finds all common substrings between two strings",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seriousManual/commonsubstrings.git"
+  },
+  "keywords": [
+    "common substring",
+    "common substrings",
+    "strings",
+    "substring",
+    "substrings"
+  ],
+  "author": " <seriousStuff@gmx.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seriousManual/commonsubstrings/issues"
+  },
+  "homepage": "https://github.com/seriousManual/commonsubstrings#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "dependencies": {
+    "dedupe": "^1.0.2"
+  }
+}
