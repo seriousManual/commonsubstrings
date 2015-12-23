@@ -1,5 +1,3 @@
-var dedupe = require('dedupe')
-
 function commonsubstrings(s1, s2) {
     //s1 is the longer one
     var tmp
@@ -27,10 +25,13 @@ function commonsubstrings(s1, s2) {
         }
     }
 
-    substrings = dedupe(substrings)
-    substrings.sort((a, b) => b.length - a.length)
-
     return substrings
+        .sort((a, b) => b.length - a.length)
+        .filter((substring) => {
+            return substrings.filter((innerSubstring) => {
+                return substring !== innerSubstring && innerSubstring.indexOf(substring) > -1
+            }).length == 0
+        })
 }
 
 module.exports = commonsubstrings
