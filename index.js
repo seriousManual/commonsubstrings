@@ -10,8 +10,6 @@ function commonsubstrings(s1, s2) {
     }
 
     var substrings = []
-
-    //we iterate s1.length times
     var currentSubstring = ''
     for (var y = 0; y < s1.length + s2.length - 1; y++) {
         for (var i = 0; i < s1.length; i++) {
