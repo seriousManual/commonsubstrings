@@ -4,7 +4,7 @@
   "description": "finds all common substrings between two strings",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test.js"
+    "test": "./node_modules/.bin/mocha test.js"
   },
   "repository": {
     "type": "git",
