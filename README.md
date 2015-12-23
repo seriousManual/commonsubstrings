@@ -1,4 +1,4 @@
-# Common Substrings
+# Common Substrings [![Build Status](https://travis-ci.org/seriousManual/commonsubstrings.png)](https://travis-ci.org/seriousManual/commonsubstrings)
 
 Calculates a list of common substrings between two strings
 
