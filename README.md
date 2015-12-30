@@ -4,7 +4,7 @@ Calculates a list of common substrings between two strings
 
 ## Installation
 ````
-npm i allcombinations --save
+npm i commonsubstrings --save
 ````
 
 ## Usage
