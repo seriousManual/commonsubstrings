@@ -2,6 +2,12 @@
 
 Calculates a list of common substrings between two strings
 
+## Installation
+````
+npm i allcombinations --save
+````
+
+## Usage
 ````
 var css = require('commonsubstrings')
 
